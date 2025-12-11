@@ -86,6 +86,8 @@ async def process_uploaded_file(rag, file_path: str, output_dir: str = "./output
             file_path=file_path,
             output_dir=output_dir,
             parse_method=os.getenv("PARSE_METHOD", "txt"),
+            device=os.getenv("DEVICE")
+,
         )
         return True
     except Exception as e:

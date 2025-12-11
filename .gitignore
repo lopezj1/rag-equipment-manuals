@@ -1,5 +1,5 @@
 .venv
 .env
 inputs/
-output/
-rag_storage/
+output*/
+rag_storage*/
